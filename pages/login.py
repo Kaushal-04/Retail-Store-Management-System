@@ -4,7 +4,7 @@ import os
 
 st.title("Retail Store Management System")
 
-user_name = st.text_input("ID")
+user_name = st.text_input("User Name")
 password = st.text_input("Password", type="password")
     
 login_button = st.button("Login")
