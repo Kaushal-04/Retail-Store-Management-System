@@ -15,9 +15,9 @@ if login_button:
         username_db, password_db, role_db = user_data
         if(username_db == user_name and password_db == password):
             if(role_db == "Manager"):
-                os.system("streamlit run pages/manager.py")
+                os.system("streamlit run manager.py")
             else:
-                os.system("streamlit run pages/cashier.py")
+                os.system("streamlit run cashier.py")
         else:
             st.error("Invalid ID or Password.")
     else:
