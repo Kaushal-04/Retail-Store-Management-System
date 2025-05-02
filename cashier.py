@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 from database import (get_connection, addCustomer, addFinance)
 import pandas as pd
