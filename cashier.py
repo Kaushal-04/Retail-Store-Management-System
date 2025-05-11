@@ -2,6 +2,8 @@ import streamlit as st
 from database import (get_connection, addCustomer, addFinance)
 import pandas as pd
 
+st.title("👨‍💼 Cashier Dashboard")
+
 # ---------- Utility Functions ----------
 
 def fetch_all_products():
